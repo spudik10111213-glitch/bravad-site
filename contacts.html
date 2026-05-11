@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BRAVAD - Контакты</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="page contacts-page">
+    <header class="header container d-flex align-items-center">
+      <a href="index.html" class="logo">BRAVAD</a>
+
+      <nav class="nav d-flex" aria-label="Основная навигация">
+        <a href="index.html#services">Услуги</a>
+        <a href="projects.html">Проекты</a>
+        <a href="contacts.html" class="is-active">Контакты</a>
+      </nav>
+
+      <a href="contacts.html" class="btn btn-outline btn-small">Оставить заявку ↗</a>
+    </header>
+
+    <main>
+      <section class="contacts-hero container position-relative">
+        <div class="contacts-hero__content">
+          <h1>КОНТАКТЫ</h1>
+          <p>
+            Готовы обсудить ваш проект и найти лучшее решение.<br>
+            Свяжитесь с нами удобным способом или оставьте<br>
+            заявку - мы ответим в ближайшее время.
+          </p>
+        </div>
+
+        <div class="contacts-hero__visual" aria-hidden="true">
+          <img src="img/hero-contacts.png" alt="3D-телефон BRAVAD">
+        </div>
+      </section>
+
+      <section class="contacts-main container row g-0" aria-label="Контакты и заявка">
+        <div class="contact-panel contact-panel--links card col-auto">
+          <h2>Свяжитесь с нами</h2>
+
+          <div class="contact-list">
+            <div class="contact-link">
+              <span class="contact-link__icon" aria-hidden="true">
+                <img src="img/contact-email-placeholder.png" alt="E-mail">
+              </span>
+              <span class="contact-link__text">
+                <strong>E-mail</strong>
+                <span>design@bravad.studio</span>
+              </span>
+              <span class="contact-link__arrow" aria-hidden="true">↗</span>
+            </div>
+
+            <div class="contact-link">
+              <span class="contact-link__icon" aria-hidden="true">
+                <img src="img/contact-phone-placeholder.png" alt="Телефон">
+              </span>
+              <span class="contact-link__text">
+                <strong>Телефон</strong>
+                <span>+7 (800) 555-35-35</span>
+              </span>
+              <span class="contact-link__arrow" aria-hidden="true">↗</span>
+            </div>
+
+            <div class="contact-link">
+              <span class="contact-link__icon" aria-hidden="true">
+                <img src="img/contact-telegram-placeholder.png" alt="Телеграмм">
+              </span>
+              <span class="contact-link__text">
+                <strong>Телеграмм</strong>
+                <span>@bravad_studio</span>
+              </span>
+              <span class="contact-link__arrow" aria-hidden="true">↗</span>
+            </div>
+
+            <div class="contact-link">
+              <span class="contact-link__icon" aria-hidden="true">
+                <img src="img/contact-vk-placeholder.png" alt="ВКонтакте">
+              </span>
+              <span class="contact-link__text">
+                <strong>ВКонтакте</strong>
+                <span>vk.com/bravad.studio</span>
+              </span>
+              <span class="contact-link__arrow" aria-hidden="true">↗</span>
+            </div>
+
+            <div class="contact-link contact-link--static">
+              <span class="contact-link__icon" aria-hidden="true">
+                <img src="img/contact-time-placeholder.png" alt="Время ответа">
+              </span>
+              <span class="contact-link__text">
+                <strong>Время ответа</strong>
+                <span>Пн-Пт: 10:00 - 19:00 МСК</span>
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-panel contact-panel--form card col-auto">
+          <h2>Оставьте заявку</h2>
+
+          <form class="contact-form" action="#" method="post">
+            <div class="contact-form__row row g-0">
+              <label>
+                <span>Имя</span>
+                <input class="form-control" type="text" name="name" placeholder="Имя">
+              </label>
+              <label>
+                <span>Компания</span>
+                <input class="form-control" type="text" name="company" placeholder="Компания">
+              </label>
+            </div>
+
+            <label>
+              <span>E-mail</span>
+              <input class="form-control" type="email" name="email" placeholder="E-mail">
+            </label>
+
+            <label>
+              <span>Услуга</span>
+              <input class="form-control" type="text" name="service" placeholder="Услуга">
+            </label>
+
+            <div class="contact-form__row row g-0">
+              <label>
+                <span>Ваш бюджет</span>
+                <input class="form-control" type="text" name="budget" placeholder="Ваш бюджет">
+              </label>
+              <label>
+                <span>Срок выполнения</span>
+                <input class="form-control" type="text" name="deadline" placeholder="Срок выполнения">
+              </label>
+            </div>
+
+            <label>
+              <span>Описание задачи</span>
+              <textarea class="form-control" name="message" placeholder="Описание задачи"></textarea>
+            </label>
+
+            <button class="btn btn-red contact-form__submit" type="submit">Отправить заявку</button>
+          </form>
+        </div>
+      </section>
+
+      <section class="contact-steps container">
+        <h2 class="section-title">Что дальше?</h2>
+
+        <div class="contact-steps__grid row g-0">
+          <article class="contact-step card col-auto">
+            <span class="contact-step__number">01</span>
+            <h3>Получаем заявку</h3>
+            <p>Вы оставляете заявку или пишите нам. Мы изучаем ваш запрос и цели проекта.</p>
+            <img src="img/step-request-placeholder.png" alt="Получение заявки">
+          </article>
+
+          <article class="contact-step card col-auto">
+            <span class="contact-step__number">02</span>
+            <h3>Обсуждаем детали</h3>
+            <p>Связываемся с вами, задаем вопросы и предлагаем оптимальное решение.</p>
+            <img src="img/step-discuss-placeholder.png" alt="Обсуждение деталей">
+          </article>
+
+          <article class="contact-step card col-auto">
+            <span class="contact-step__number">03</span>
+            <h3>Начинаем работу</h3>
+            <p>Согласуем план, сроки и приступаем к созданию вашего проекта.</p>
+            <img src="img/step-start-placeholder.png" alt="Начало работы">
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer container">
+      <div class="footer__brand">BRAVAD</div>
+      <div class="footer__mail">design@bravad.studio</div>
+      <div class="footer__socials">
+        <span>Соц. сети</span>
+        <img src="img/icons/telegram.png" alt="Telegram">
+        <img src="img/icons/vk.png" alt="VK">
+      </div>
+    </footer>
+  </div>
+
+  <div class="modal fade request-success-modal" id="requestSuccessModal" tabindex="-1" role="dialog" aria-labelledby="requestSuccessTitle" aria-hidden="true">
+    <div class="modal-dialog modal-fullscreen">
+      <div class="modal-content">
+        <header class="success-header container">
+          <a href="index.html" class="logo">BRAVAD</a>
+
+          <nav class="nav success-nav" aria-label="Навигация после отправки заявки">
+            <a href="index.html#services">Услуги</a>
+            <a href="projects.html">Проекты</a>
+            <a href="contacts.html">Контакты</a>
+          </nav>
+
+          <button class="btn btn-outline btn-small" type="button" data-bs-dismiss="modal">Оставить заявку ↗</button>
+        </header>
+
+        <div class="success-content container">
+          <div class="success-copy">
+            <h2 id="requestSuccessTitle">ЗАЯВКА<br>ОТПРАВЛЕНА</h2>
+            <p class="success-copy__lead">
+              Спасибо!<br>
+              Мы получили вашу заявку и свяжемся с вами в течении 24 часов.
+            </p>
+            <p class="success-copy__text">
+              А пока вы можете ознакомиться с нашими проектами или вернуться на главную страницу.
+            </p>
+          </div>
+
+          <div class="success-visual" aria-hidden="true">
+            <img src="img/success-visual-placeholder.png" alt="Заявка отправлена">
+          </div>
+
+          <div class="success-actions">
+            <a href="index.html" class="btn btn-red">На главную ↗</a>
+            <a href="projects.html" class="btn btn-dark">Смотреть проекты ↗</a>
+          </div>
+        </div>
+
+        <footer class="footer success-footer container">
+          <div class="footer__brand">BRAVAD</div>
+          <div class="footer__mail">design@bravad.studio</div>
+          <div class="footer__socials">
+            <span>Соц. сети</span>
+            <img src="img/icons/telegram.png" alt="Telegram">
+            <img src="img/icons/vk.png" alt="VK">
+          </div>
+        </footer>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
